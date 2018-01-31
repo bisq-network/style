@@ -1,0 +1,5 @@
+= The @bisq-network style guide
+
+This styleguide is designed to cover tips, guidelines and best practices around the effective use of the tools we use to build Bisq, such as Java, Git and GitHub.
+
+This effort is just getting started, and so right now the style guide is empty. New entries should start as GitHub issues or pull requests, where they can be discussed and conveniently referenced from other issues and pull requests around the @bisq-network org using GitHub issue references.
