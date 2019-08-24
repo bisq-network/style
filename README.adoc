@@ -3,3 +3,20 @@
 This styleguide is designed to cover tips, guidelines and best practices around the effective use of the tools we use to build Bisq, such as Java, Git and GitHub.
 
 This effort is just getting started, and so right now the style guide is empty. New entries should start as GitHub issues or pull requests, where they can be discussed and conveniently referenced from other issues and pull requests around the @bisq-network org using GitHub issue references.
+
+== Java Code Style Conventions
+
+=== Curly Braces
+
+==== if else-if else while statements
+A one line body of code following an if, else-if, else or while statement should not be enclosed in curly braces {},
+but the one line following an if, else-if, else or while condition should be on a new line.
+
+Example:
+----
+if (something.isActivated())
+    indicator.setProgress(1);
+else
+    indicator.setProgress(0);
+----
+Note:  Intellij's code style settings editor cannot be used to enforce this rule during code formatting.
